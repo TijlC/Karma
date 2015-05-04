@@ -450,6 +450,9 @@ div {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -518,4 +521,29 @@ button {
 button:hover {
   background-color: #800000;
   cursor: pointer;
+}
+
+.cases h2 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: 2.5em;
+}
+
+.cases .devices h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.cases .content {
+  text-align: center;
+}
+
+.cases .devices {
+    width: 33%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    text-align: center;
 }
